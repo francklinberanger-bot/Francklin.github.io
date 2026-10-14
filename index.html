@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Léa Soïzoun | Funnel Builder</title>
+  <meta name="description" content="Portfolio de Léa Soïzoun, spécialiste en création et optimisation de tunnels de vente.">
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #202033;
+      background: #fff;
+      line-height: 1.7;
+    }
+    header {
+      padding: 22px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #eee;
+    }
+    .logo { font-size: 22px; font-weight: bold; }
+    nav a {
+      margin-left: 20px;
+      color: #333;
+      text-decoration: none;
+    }
+    .hero {
+      padding: 100px 8%;
+      background: #f5f2ff;
+      text-align: center;
+    }
+    .eyebrow {
+      color: #7250c8;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    h1 { font-size: clamp(36px, 6vw, 60px); line-height: 1.15; }
+    h1 span { color: #7250c8; }
+    .hero p { max-width: 680px; margin: 20px auto 30px; }
+    .button {
+      display: inline-block;
+      padding: 14px 24px;
+      border-radius: 8px;
+      background: #7250c8;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section { padding: 70px 8%; }
+    h2 { font-size: 32px; margin-bottom: 12px; }
+    .intro { max-width: 700px; color: #626274; }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 24px;
+      margin-top: 32px;
+    }
+    .project {
+      border: 1px solid #e8e5f0;
+      border-radius: 14px;
+      padding: 25px;
+      background: #fff;
+    }
+    .project-number { color: #7250c8; font-weight: bold; }
+    .project a { color: #7250c8; font-weight: bold; }
+    .services { background: #faf9fc; }
+    .service {
+      padding: 20px;
+      border-radius: 10px;
+      background: white;
+      border: 1px solid #eee;
+    }
+    .contact { text-align: center; background: #f5f2ff; }
+    footer { padding: 25px; text-align: center; color: #777; }
+    @media (max-width: 600px) {
+      header { flex-direction: column; gap: 10px; }
+      nav a { margin: 0 7px; font-size: 14px; }
+      .hero { padding: 65px 6%; }
+      section { padding: 50px 6%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Léa Soïzoun.</div>
+    <nav>
+      <a href="#realisations">Réalisations</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Funnel Builder · Marketing digital</p>
+      <h1>Je transforme vos offres en <span>parcours de vente</span>.</h1>
+      <p>
+        Je conçois des tunnels de vente attractifs et structurés
+        pour présenter vos offres, capter des prospects et faciliter
+        le passage à l'achat.
+      </p>
+      <a class="button" href="#realisations">Découvrir mes réalisations</a>
+    </section>
+
+    <section id="realisations">
+      <h2>Mes réalisations</h2>
+      <p class="intro">
+        Découvrez quelques exemples de pages et de tunnels de vente
+        conçus avec soin pour mettre en valeur une offre.
+      </p>
+      <div class="projects">
+        <article class="project">
+          <p class="project-number">PROJET 01</p>
+          <h3>Tunnel de vente</h3>
+          <p>Une présentation structurée d'une offre, pensée pour guider le visiteur vers l'action.</p>
+          <p><em>Ajoutez ici une capture d'écran et le lien de votre projet.</em></p>
+        </article>
+        <article class="project">
+          <p class="project-number">PROJET 02</p>
+          <h3>Page de capture</h3>
+          <p>Une page conçue pour présenter une ressource gratuite et recueillir des contacts.</p>
+          <p><em>Ajoutez ici une capture d'écran et le lien de votre projet.</em></p>
+        </article>
+        <article class="project">
+          <p class="project-number">PROJET 03</p>
+          <h3>Page de présentation d'offre</h3>
+          <p>Une page claire qui met en avant les bénéfices d'un service ou d'une formation.</p>
+          <p><em>Ajoutez ici une capture d'écran et le lien de votre projet.</em></p>
+        </article>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <h2>Mes services</h2>
+      <div class="projects">
+        <div class="service">
+          <h3>Création de tunnels de vente</h3>
+          <p>Des parcours adaptés à vos offres et à vos objectifs commerciaux.</p>
+        </div>
+        <div class="service">
+          <h3>Pages de capture</h3>
+          <p>Des pages pensées pour présenter votre ressource et attirer des prospects.</p>
+        </div>
+        <div class="service">
+          <h3>Optimisation de pages</h3>
+          <p>Une meilleure présentation de votre offre et un parcours visiteur plus clair.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Vous avez un projet ?</h2>
+      <p>Parlons de votre offre et du tunnel de vente dont vous avez besoin.</p>
+      <a class="button"
+         href="https://soizounlea9.systeme.io/prise-de-rendez-vous"
+         target="_blank" rel="noopener noreferrer">
+        Prendre rendez-vous
+      </a>
+    </section>
+  </main>
+
+  <footer>© 2026 Léa Soïzoun · Portfolio professionnel</footer>
+</body>
+</html>
